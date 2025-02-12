@@ -1,4 +1,4 @@
-FROM tomcat:9.0
+FROM tomcat:10.1.34
 WORKDIR /usr/local/tomcat/webapps/
 COPY Ecommercewebsite.war /usr/local/tomcat/webapps/
 EXPOSE 8080
